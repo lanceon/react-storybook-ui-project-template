@@ -1,0 +1,57 @@
+{
+  "name": "react-storybook-ui-project-template",
+  "version": "1.0.0",
+  "description": "Template project for UI component development with ReactJS",
+  "private": true,
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lanceon/react-storybook-ui-project-template.git"
+  },
+  "keywords": [
+    "template",
+    "react",
+    "ui",
+    "storybook"
+  ],
+  "author": "Alexey Zavalin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lanceon/react-storybook-ui-project-template/issues"
+  },
+  "homepage": "https://github.com/lanceon/react-storybook-ui-project-template#readme",
+  "engines": {
+    "node": ">=6.9.1",
+    "npm": ">=4.0.2"
+  },
+  "dependencies": {
+    "react": "~15.4.1",
+    "react-dom": "~15.4.1"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.33.1",
+    "@kadira/storybook-addon-knobs": "^1.7.1",
+    "@kadira/storybook-addons": "^1.6.1",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "css-loader": "^0.26.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1",
+    "node-sass": "^3.13.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "stylelint": "^7.6.0",
+    "stylelint-config-standard": "^15.0.0"
+  }
+}

@@ -12,7 +12,7 @@ class TextPasswordInputExample extends React.Component {
 
   handleChange = (event) => {
     const value = event.target.value;
-    console.log(this.props.logger)
+    this.props.logger(value);
     this.setState({ value });
   };
 

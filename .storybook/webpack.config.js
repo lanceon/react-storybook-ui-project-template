@@ -21,12 +21,19 @@ module.exports = {
       },
       {
         test: /.scss$/,
-        loaders: ['style', 'css', 'sass'],
-        exclude: /node_modules/,
+        loaders: ['style', 'css?modules', 'sass'],
+        include: [
+          path.resolve(__dirname, '../components'),
+          path.resolve(__dirname, '../node_modules/react-toolbox')
+        ],
       },
       {
         test: /\.css$/,
         loaders: ['style', 'css'],
+        include: [
+          path.resolve(__dirname, '../components'),
+          path.resolve(__dirname, '../node_modules/react-toolbox')
+        ],
       },
     ]
   },

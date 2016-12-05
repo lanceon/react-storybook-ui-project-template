@@ -4,8 +4,7 @@
   "description": "Template project for isolated UI component development with ReactJS",
   "private": true,
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 {
   "name": "react-storybook-ui-project-template",
   "version": "1.0.0",
-  "description": "Template project for UI component development with ReactJS",
+  "description": "Template project for isolated UI component development with ReactJS",
   "private": true,
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
@@ -28,13 +28,13 @@
     "npm": ">=4.0.2"
   },
   "dependencies": {
+    "@kadira/storybook": "^2.33.1",
+    "@kadira/storybook-addon-knobs": "^1.7.1",
+    "@kadira/storybook-addons": "^1.6.1",
     "react": "~15.4.1",
     "react-dom": "~15.4.1"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.33.1",
-    "@kadira/storybook-addon-knobs": "^1.7.1",
-    "@kadira/storybook-addons": "^1.6.1",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.8",
@@ -48,10 +48,13 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.7.1",
+    "json-loader": "^0.5.4",
     "node-sass": "^3.13.0",
+    "react-hot-loader": "^1.3.1",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "stylelint": "^7.6.0",
-    "stylelint-config-standard": "^15.0.0"
+    "stylelint-config-standard": "^15.0.0",
+    "stylelint-webpack-plugin": "^0.4.0"
   }
 }

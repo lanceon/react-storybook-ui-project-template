@@ -1,7 +1,7 @@
 import React from 'react';
 
-const TextPasswordInput = ({ type, value, onChange, ...props }) => (
-  <input type={type} value={value} onChange={onChange} {...props} />
+const TextPasswordInput = ({ type, value, ...props }) => (
+  <input type={type} value={value} {...props} />
 );
 
 TextPasswordInput.propTypes = {

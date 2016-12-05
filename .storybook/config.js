@@ -1,8 +1,8 @@
 import { configure } from '@kadira/storybook';
 
 const loadStories = () => {
-  require('../stories/defaultButtons');
   require('../stories/textPasswordInputs');
+  require('../stories/defaultButtons');
 };
 
 configure(loadStories, module);

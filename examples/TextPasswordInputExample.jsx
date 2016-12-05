@@ -10,9 +10,9 @@ class TextPasswordInputExample extends React.Component {
     value: '',
   };
 
-  handleChange = (event) => {
+  handleChange = (event, logger) => {
     const value = event.target.value;
-    this.props.logger(value);
+    logger(value);
     this.setState({ value });
   };
 
@@ -25,7 +25,7 @@ class TextPasswordInputExample extends React.Component {
         </p>
         <TextPasswordInput
           value={this.state.value}
-          onChange={this.handleChange}
+          onChange={e => this.handleChange(e, logger)}
           {...props}
         />
       </div>

@@ -1,6 +1,6 @@
 # React-storybook-ui-project-template #
 
-This is a template project for isolated UI component development with ReactJS.
+Template project for isolated UI component development with ReactJS.
 
 # Get #
 
@@ -20,8 +20,15 @@ npm install
 npm start storybook
 ```
 
-Open http://localhost:9001/ in a browser to access your StoryBook.
+Open http://localhost:9001/ in a browser to access the StoryBook with configured components.
 
+# How to Create New Components #
+
+1. Create new file or folder with component files under `/components` (`/components/TextPasswordInput.jsx`).
+2. Create component that wraps up new UI component and provides it with all required properties (`/examples/TextPasswordInputExample.jsx`).
+3. Create StoryBook _story_ (`/stories/textPasswordInputs.js`). Story may contain component properties wrapped with StoryBook's _knobs_ to let user change them dynamically from web browser to test component in different modes and states.
+4. Include story into StoryBook's configuration file (`.storybook/config.js`).
+5. Run storybook with npm.
 
 # Integrated Tools #
 

@@ -8,13 +8,13 @@ Template project for isolated UI component development with ReactJS.
 git clone https://github.com/lanceon/react-storybook-ui-project-template
 ```
 
+Checkout `master` branch for example of React components built with plain html or `react-toolbox` branch for example with react-toolbox dependency and components.
+
 # Setup #
 
 ```
 npm install
 ```
-
-Checkout `master` branch for example of React components built with plain html or `react-toolbox` branch for example with react-toolbox dependency and components.
 
 # Run StoryBook #
 

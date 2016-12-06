@@ -19,7 +19,7 @@ npm install
 # Run StoryBook #
 
 ```
-npm start storybook
+npm run storybook
 ```
 
 Open [http://localhost:9001/](http://localhost:9001/) in a browser to access your StoryBook with configured components.
